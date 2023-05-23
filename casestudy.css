@@ -1,0 +1,223 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    margin: 0px !important;
+  }
+  /* Navbar */
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hamburgericon {
+    display: none;
+    height: 30px;
+    padding: 20px;
+}
+
+#closeicon {
+    display: none;
+    height: 30px;
+    padding: 20px;
+}
+
+header {
+  background-image: url("./images/planupbanner.png");
+  background-size: cover;
+  color: #F4F1EA;
+}
+.breadcrumb {
+  color: #F4F1EA !important;
+  text-align: right;
+}
+.breadcrumb-item {
+  color: #385019 !important;
+}
+.breadcrumb-item a{
+  color: #385019!important;
+}
+.jumbotron {
+height: 500px;
+text-align: right;
+padding-right: 50px;
+padding-top: 120px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    object-fit: contain;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+  }
+    
+  nav li {
+    float: right;
+  }
+    
+   nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #385019 !important;
+    font-size: 15pt;
+  }
+    
+  nav li a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    max-width: 100%;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 0;
+    font-weight: bold;
+  }
+  .images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 80px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-top: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* footer */
+
+.footer{
+    background-color: #385019;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+}
+.ulfooter {
+    display: inline;
+    float: right;
+    text-align: right;
+    
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    color: #F4F1EA;
+  
+}
+.footerlogo {
+    height: auto;
+    width: 100px;
+    padding: 25px 10px 10px 15px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+  /* Navbar */
+
+  #navigation {
+    background-color: #F4F1EA;
+    position: relative;
+    width: 100%;
+    min-height: 70px;
+  }
+  nav li {
+  float: none;
+  display: block;
+  text-align: right;
+
+  }
+  #hamburgericon {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+
+  #closeicon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+  }
+  #navlinks {
+    display: none;
+  }
+  nav li a {
+  font-size: 16px;
+  color: #385019;
+
+  }
+
+  nav ul {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  .logo {
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    object-fit: contain;
+    position: absolute;
+  }
+  
+  
+  /* Footer */
+  footer {
+  position: static;
+  }
+  }

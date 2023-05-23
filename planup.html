@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>UI/UX Portfolio - Case Study</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="./casestudy.css">
+
+    </head>
+    <body>
+        <nav id="navigation">
+            <img class="logo" src="./images/logo.png">
+            <img src="./images/hamburger.png" id="hamburgericon">
+            <img src="./images/close.png" id="closeicon">
+            <ul id="navlinks">
+              <li><a onclick="contact()">Contact</a></li>
+              <li><a onclick="projects()">My Projects</a></li>
+               <li><a onclick="about()">About Me</a></li>
+             </ul>
+          </nav>
+      
+        <header>
+          <div aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">PlanUp!</li>
+  </ol>
+</div>
+            <div class="jumbotron">
+  <h1 class="display-4">PlanUp!</h1>
+  <p class="lead">Group travel planning made easy</p>
+</div>
+        </header>
+        <div class="container">
+          <div class="row mt-4">
+            <div class="col">
+            <h1>PlanUp!</h1>
+            </div>
+          </div>
+         <div class="row mt-4">
+            <div class="col">
+              <h2>Project Overview</h2>
+            <p> Group travel planning can be stressful and time-consuming, so I want to create an app where users who are planning their travel in a group can have a space to collaboratively plan their itinerary together.
+                <br><br>
+                Overall, my goal with PlanUp! is to create an app that simplifies the group travel planning process, reduces stress and friction among travellers, and ultimately enhances the overall travel experience for everyone involved. </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+                <h3>User Research</h3>
+                <p>During the initial phase of creating a travel app, my main objective was to identify the general pain points of travelling. 
+                    However, after conducting extensive user research and collecting data, my findings revealed that one of the most significant pain points of travelling is when users have to plan a group trip. <br><br>
+                    This insight was particularly intriguing because users shared that planning a group trip is stressful, time-consuming, and can lead to disagreements among travellers.
+                    Based on my user research, I came up with this user persona since the target users for this app is likely to be young adults who often travel with their friends or families.</p>
+                <img src="./images/planupproto.png" class="images">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+                <h3>Definition & Ideation</h3>
+                <p> <strong>User insight statement:</strong>
+                Rachel who wants to plan a trip with her friends, needs a way that allows everyone to collaborate in planning the travel itinerary, because she wants everyone to be able to share their opinions and feels included. <br><br>
+                <strong>Problem statement:</strong>
+                It is challenging to meet everyone’s availability, needs, and likings when planning a group travel.
+                How might we make group travel planning less stressful and time-consuming?</p>
+                <p> <strong> Storyboard </strong></p>
+                <img src="./images/planupstoryboard.png" class="images">
+                <p> As a result, I decided to create an app that would help users who are planning their travels in a group to have a space to collaboratively plan their itinerary together. This app would provide users with a platform to share ideas, discuss travel plans, and make collective decisions to avoid any disagreements or misunderstandings.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+                <h3>Solution</h3>
+                <img src="./images/planupanalysis.png" class="images">
+                <p> <strong>Competitor Analysis Matrix:</strong>
+                Based on my competitor analysis, i have narrowed down the key features that i want to include in PlanUp!<br><br>
+                One of the key features of PlanUp! is the <strong> voting function </strong>. This feature allows users to vote on different travel options such as activities, restaurants, and accommodations. By doing so, users can quickly and easily come to a collective decision on what to include in their itinerary.<br><br>
+                Another feature of PlanUp! is the <strong>budget tracker</strong>. Group travel can often lead to disagreements over finances, so this feature helps to track expenses and ensure that everyone is on the same page regarding the budget.<br><br>
+                Lastly, by <strong>linking bookings to the itinerary</strong>, users can easily keep track of their travel plans in one place.<br><br>
+                <p><strong>Low Fidelity user Testing & Feedback:</strong></p>
+                <img src="./images/planuplofi.png" class="images">
+                <p>The user testing of the low-fidelity prototype was successful, as all users were able to complete the given tasks successfully. <br><br> However, I received several feedback that can improve the user experience even further. </p>
+                <img src="./images/planupmatrix.png" class="images">
+                <p>Based on the feature prioritisation matrix, I focused on incorporating a group chat function into the high-fidelity prototype, which should enhance the collaborative aspect of travel planning. This feature will allow users to communicate with each other in real-time, exchange ideas, and make collective decisions about their itinerary.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+            <h3>Final Prototype</h3>
+            <img src="./images/planuphifi.png" class="images">
+            </div>
+          </div>
+        </div>
+        <div class="footer" id="contact">
+            <img class="footerlogo" src="images/whitelogo.png">
+            <ul class="ulfooter">
+              <li id="myID">Instagram</li>
+              <li>LinkedIn</li>
+              <li>Email</li>
+            </ul>  
+            <!-- <div id="hiddenfooter"> contact details </div> -->
+          </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="js/index.js"></script>
+
+    </body>
+</html>
